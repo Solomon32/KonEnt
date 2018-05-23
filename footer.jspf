@@ -1,0 +1,8 @@
+<footer class="clear">
+			<p><a href="<%=request.getContextPath()%>/jsp/kontakt.jsp">Kontakt</a>
+				<a href="<%=request.getContextPath()%>/jsp/ueberuns.jsp">Über Uns!</a>
+				<a href="<%=request.getContextPath()%>/jsp/impressum.jsp">Impressum</a>
+			</p>
+		</footer>
+	</body>
+	</html>

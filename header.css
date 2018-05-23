@@ -1,0 +1,45 @@
+@charset "UTF-8";
+header {
+	border: 1px;
+	padding: 10px;
+	color:white;
+	background-color: tomato;
+	opacity: 0,1;
+	border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #212121;
+    border-radius: 5px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 	{
+    background-color: #929292;
+}
+
+a:link {
+	color: #fcfff4;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f0f5eb;
+	text-decoration: none;
+}
+

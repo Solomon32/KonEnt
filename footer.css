@@ -1,0 +1,8 @@
+@charset "UTF-8";
+footer {
+	border: 1px;
+	padding: 10px;
+	text-align: center;
+	background-color: tomato;
+	border-radius: 5px;
+	}

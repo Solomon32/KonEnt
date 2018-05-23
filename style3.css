@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/*Grundgerüst Formatierung*/
+h1{
+	font-size:2.5em;
+	line-height:3.8em;
+	text-align: left;
+	font-family: "Futura Std", Arial, serif;
+	font-weight:100;
+	color: white;
+	margin:0em;
+	
+}
+
+h2{
+	text-align: left;
+	color: #ff0000;
+	font-family: "Futura Std", Arial, serif;
+}
+
+h3{
+	font-family: "Futura Std", Arial, serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #212121;
+    border-radius: 5px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 	{
+    background-color: #929292;
+}
+
+a:link {
+	color: #fcfff4;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f0f5eb;
+	text-decoration: none;
+}
+
+
+
+a:hover {
+	color: #f0f5eb;
+	text-decoration: none;
+}
+
+a:active{
+	color: pink;
+	text-decoration: none;
+}
+alignleft{
+	float: left;
+}
+
+alignright{
+	float: right;
+}
+
+article {
+	margin: 0;
+	border: 0;
+	width: 80%;
+}
+
+
+.clear {
+	clear: both;
+}
+/*Kontakformular formatierung*/
+
+label {
+			min-width: 6em;
+			display: inline-block;
+			text-align: left;
+		}
+		input {
+			width: 20em;
+		}
+		
+		textarea {
+			width: 20em;
+			border: 1px solid black;
+		}
+		input[type="checkbox"], input[type="radio"] {
+			width: auto;
+		}
+		label.textarea {
+			vertical-align: top;
+		}
+		input[type="checkbox"], button[type="submit"] {
+			margin-left: 8em;
+		}
+		button {
+			width: 10em;
+		}
+		
+
+/* Formular optisch stylen.		  *
+		 * Vorgehen: von innen nach außen */
+		fieldset {
+			width: 30em;
+			padding-top: 1.5em;
+			padding-left: 1.5em;
+			background: #e6eeff;
+			border: 1px solid #000330;
+			border-radius: 5px;
+		}
+		legend {
+			background: white;
+			padding: 0.2em;
+			border: 1px solid #000330;
+			border-radius: 5px;
+		}
+
+/* Interaktionen über Pseudoklassen */
+		input:hover, textarea:hover {
+			background: #fffff0;
+			border: 2px solid #efe816;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		button:hover {
+			background: #c9c9c9;
+			border: 2px solid #6c6c6c;
+		}
+		button:active {
+			background: #8f8f8f;
+		}
+
+/* Erforderliche Felder explizit markieren und *
+		 * korrekte Felder explizit hervorheben        */
+		input:required + label::after { 
+			color: red; content: " *"; 
+		}
+		textarea:required + label::after { 
+			color: red; content: " *";
+		}
+		input[type='email']:valid + label::after {
+			color: green;
+			content: " ✓"; 
+		}
+/* Damit Felder nicht zu dicht folgen */
+		form div { 
+			padding: 0.2em; 
+		}

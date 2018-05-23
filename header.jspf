@@ -1,0 +1,15 @@
+<div id="header">
+	<header>
+		<h1>Sneakr-Seite</h1>
+	</header>	
+</div>
+	<nav class="nav">
+	<ul>
+			<li><a class ="active" href="<%=request.getContextPath()%>/jsp/index.jsp">Home</a></li>
+			<li><a href="#">Damen</a></li>
+			<li><a href="<%=request.getContextPath()%>/jsp/herren.jsp">Herren</a></li>
+			<li><a href="<%=request.getContextPath()%>/jsp/kontakt.jsp">Kontakt</a></li>	
+			<li><a href="<%=request.getContextPath()%>/jsp/registrierung.jsp">Registrierung</a></li>
+			<li><a href="<%=request.getContextPath()%>/jsp/login.jsp">Login</a></li>
+	</ul>
+	</nav>
